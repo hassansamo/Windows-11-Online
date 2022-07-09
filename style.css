@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+#bg-video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.taskbar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #e4eefa;
+  display: flex;
+  justify-content: center;
+  height: 2.1875rem;
+  /* justify-content: space-around; */
+}
+
+#windows-icon {
+  cursor: pointer;
+}
+
+#toolbar{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
